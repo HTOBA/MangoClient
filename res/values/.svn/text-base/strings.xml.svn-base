@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title">芒果网</string>
+    <string name="search">    寻找热门宝贝，店铺</string>
+    <string name="comprehensive">综合</string>
+    <string name="count">销量</string>
+    <string name="price">价格</string>
+    <string name="recommend">热门推荐</string>
+    <string name="home">主页</string>
+    <string name="shopcar">购物车</string>
+    <string name="information">我的信息</string>
+    <string name="ordergoods">我的订单</string>
+    <string name="login">登录</string>
+    <string name="collect">我收藏的宝贝</string>
+    <string name="edit">编辑</string>
+     <string name="refresh">刷新</string>
+    <string name="app_name">MangoClient</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_shop">ShopActivity</string>
+    <string name="title_activity_pay">PayActivity</string>
+    <string name="title_activity_order">OrderActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_order_info">OrderInfoActivity</string>
+    <string name="hello">Hello World, UI_Test_ViewPagerActivity!</string>
+    <string name="text1">第1章 Android应用与开发环境 11.1 Android的发展和历史 21.2 搭建Android开发环境 51.3 Android常用开发工具的用法 131.4 开始第一个Android应用 191.5 Android应用结构分析 231.6 Android应用的基本组件介绍 301.7 签名Android应用程序 331.8 本章小结 37第2章 Android应用的界面编程 382.1 界面编程与视图（View）组件 39
+	2.2 第1组UI组件：布局管理器 50
+	2.3 第2组UI组件：TextView及其子类 65
+	2.4 第3组UI组件：ImageView及其子类 84
+	2.5 第4组UI组件：AdapterView及子类 91
+	2.6 第5组UI组件：ProgressBar及其子类 119
+	2.7 第6组UI组件：ViewAnimator及其子类 126
+	2.8 各种杂项组件 138
+	2.9 对话框 154
+	2.10 菜单 167
+	2.11 使用活动条（ActionBar） 179
+	2.12 本章小结 192
+	第3章 Android的事件处理 193
+	3.1 Android事件处理概述 194
+	3.2 基于监听的事件处理 194
+	3.3 基于回调的事件处理 205
+	3.4 响应的系统设置的事件 210
+	3.5 Handler消息传递机制 214
+	3.6 异步任务（AsyncTask） 220
+	3.7 本章小结 223
+	第4章 深入理解Activity与Fragment 224
+	4.1 建立、配置和使用Activity 225
+	4.2 Activity的回调机制 245
+	4.3 Activity的生命周期与加载模式 246
+	4.4 Fragment详解 257
+	4.5 Fragment的生命周期 268
+	4.6 本章小结 272
+	第5章 使用Intent和IntentFilter进行通信 273
+	5.1 Intent对象详解 274
+	5.2 Intent的属性及intent-filter配置 275
+	5.3 使用Intent创建Tab页面 296
+	5.4 本章小结 297
+	第6章 Android应用的资源 298
+	6.1 资源的类型及存储方式 299
+	6.2 使用字符串、颜色、尺寸资源 302
+	6.3 数组（Array）资源 307
+	6.4 使用（Drawable）资源 310
+	6.5 属性动画（Property Animation）资源 320
+	6.6 使用原始XML资源 322
+	6.7 使用布局（Layout）资源 325
+	6.8 使用菜单（Menu）资源 325
+	6.9 样式（Style）和主题（Theme）资源 326
+	6.10 属性（Attribute）资源 329
+	6.11 使用原始资源 332
+	6.12 国际化和资源自适应 333
+	6.13 自适应不同屏幕的资源 340
+	6.14 本章小结 343
+	第7章 图形与图像处理 344
+	7.1 使用简单图片 345
+	7.2 绘图 348</string>
+    <string name="text2">移动互联网已经成为当今世界发展最快、市场潜力最大、前景最诱人的业务，而Android则是移动互联网上市场占有率最高的平台（已远超iOS，最新统计数据：Android占53.7，iOS占35）；与此同时，Android应用选择了Java作为其开发语言，这对于Java来说也是一次极好的机会。本书是《疯狂Android讲义》的第2版。本书基于最新的Android 4.2，Android SDK、ADT都基于Android4.2，书中每个案例、每个截图都全面升级到Android4.2。本书全面地介绍了Android应用开发的相关知识，全书内容覆盖了Android用户界面编程、Android四大组件、Android资源访问、图形/图像处理、事件处理机制、Android输入/输出处理、音频/视频多媒体应用开发、OpenGL与3D应用开发、网络通信编程、Android平台的WebService、传感器应用开发、GPS应用开发、Google Map服务等。本书并不局限于介绍Android编程的各种理论知识，而是从“项目驱动”的角度来讲授理论。全书一共包括近百个实例，这些示范性的实例既可帮读者更好地理解各知识点在实际开发. </string>
+    <string name="text3">3月31日，第四届CocoaChina游戏开发者大会暨Cocos2D-X技术研讨会在北京举行。来自全世界的移动互联网精英在此交流经验、相互学习。同时这次我们有幸也采访到了CocoaChina的CEO陈昊芝先生。他将为我们揭秘苹果新榜单的算法秘密，并未我们带来捕鱼达人成功的推广经验，对微软Windows Phone平台的吐槽和对未来3D技术趋势的前瞻。</string>
+    
+
+</resources>

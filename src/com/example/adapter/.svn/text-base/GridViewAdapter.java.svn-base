@@ -1,0 +1,51 @@
+package com.example.adapter;
+import java.util.List;
+
+import com.example.helper.GridItem;
+import com.example.mangoclient.R;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+public class GridViewAdapter extends BaseAdapter {
+
+	private List<GridItem> datas = null;
+	private Context context = null;
+
+	public GridViewAdapter(List<GridItem> datas,Context context) {
+		this.datas = datas;
+		this.context = context;
+	}
+
+	public int getCount() {
+		return datas.size();
+	}
+
+	public Object getItem(int position) {
+		return datas.get(position);
+	}
+
+	public long getItemId(int position) {
+		return position;
+	}
+
+	public View getView(int position, View convertView, ViewGroup parent) {
+		final GridItem book = datas.get(position);
+		convertView = LayoutInflater.from(context).inflate(R.layout.imageview, null);
+		final ImageView bookimage = (ImageView) convertView.findViewById(R.id.image);
+		bookimage.setImageBitmap(book.getbitmap());
+		TextView bookname = (TextView) convertView.findViewById(R.id.bookname);
+		bookname.setText(book.getname());
+		TextView salesvolume = (TextView) convertView.findViewById(R.id.salevolume);
+		salesvolume.setText("销量：" + book.getsalevolume());
+		TextView book_price = (TextView) convertView.findViewById(R.id.bookprice);
+		book_price.setText("价格："+String.valueOf(book.getprice()));
+		return convertView;
+	}
+
+}

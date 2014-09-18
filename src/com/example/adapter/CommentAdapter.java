@@ -1,0 +1,54 @@
+package com.example.adapter;
+
+import java.util.List;
+import java.util.Map;
+
+import com.example.mangoclient.R;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+public class CommentAdapter extends BaseAdapter {
+
+	private List<Map<String, Object>> datas = null;
+	private Context context = null;
+
+	public CommentAdapter(List<Map<String, Object>> datas, Context context) {
+		this.datas = datas;
+		this.context = context;
+	}
+
+	public int getCount() {
+		// TODO Auto-generated method stub
+		return datas.size();
+	}
+
+	@Override
+	public Object getItem(int position) {
+		// TODO Auto-generated method stub
+		return datas.get(position);
+	}
+
+	@Override
+	public long getItemId(int position) {
+		return position;
+	}
+
+	@Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+		convertView = LayoutInflater.from(context).inflate(R.layout.listview,
+				null);
+		TextView book_name = (TextView) convertView.findViewById(R.id.comment);
+		book_name.setText((String) datas.get(position).get("comment"));
+		TextView book_price = (TextView) convertView
+				.findViewById(R.id.commentdate);
+		book_price.setText((String) datas.get(position).get("commentdate"));
+		return convertView;
+	}
+
+}

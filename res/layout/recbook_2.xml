@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/book_background"
+    android:orientation="vertical" >
+
+
+
+    <com.example.grallery3d.GalleryView
+        android:id="@+id/mygallery_2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dip"
+      	android:layout_weight="0.50"
+        android:spacing="20dp"
+        android:unselectedAlpha="128" />
+
+    <TextView
+        android:id="@+id/tvTitle_2"
+        android:layout_width="fill_parent"
+        android:layout_height="22dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ds_2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="评分 :    "
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <RatingBar
+            android:id="@+id/dishScores_2"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="3"
+            android:stepSize="0.2" />
+    </LinearLayout>
+
+</LinearLayout>

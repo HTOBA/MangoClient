@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_all"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.5" >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+          	android:background="@drawable/title"
+            android:textColor="#ffffff"
+            android:textSize="15pt"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:orientation="horizontal"
+            android:background="@drawable/background">               
+        	<EditText
+           	 	android:id="@+id/sehgoods"
+           	 	android:bufferType="spannable"
+            	android:layout_width="0dp"
+            	android:layout_weight="7"
+           		android:layout_height="match_parent"
+            	android:ems="10"
+            	android:paddingLeft="8dp"
+           		android:hint="@string/search"
+           		android:background="@android:color/transparent"
+            	android:textSize="6pt" />
+        	<Button
+           		android:id="@+id/search"
+            	android:layout_width="0dp"
+            	android:layout_weight="1"
+            	android:layout_height="match_parent" 
+            	android:background="@android:color/transparent"/>
+        </LinearLayout>
+   	</LinearLayout>
+   	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"  
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/count"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="#30ffffff"
+            android:gravity="center"
+            android:text="@string/count"
+            android:textColor="#ffffff"
+            android:textSize="8pt" />
+         <Button
+            android:id="@+id/price"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="#30ffffff"
+            android:gravity="center"
+            android:text="@string/price"
+            android:textColor="#ffffff"
+            android:textSize="8pt" />
+          <Button
+            android:id="@+id/refresh"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="#30ffffff"
+            android:gravity="center"
+            android:text="@string/refresh"
+            android:textColor="#ffffff"
+            android:textSize="8pt" />
+    </LinearLayout>
+	<GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:horizontalSpacing="1pt"
+        android:numColumns="2"
+        android:padding="5dp"
+        android:verticalSpacing="1pt" />
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_weight="1.5" 
+        >
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.97"
+            android:background="#10ffffff"
+            android:gravity="center"
+            android:drawableBottom="@drawable/icon_profile"
+            android:textColor="#ffffff"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/information"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:background="#10ffffff"
+            android:gravity="center"
+            android:drawableBottom="@drawable/icon_mail"
+            android:textColor="#ffffff"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/shopcar"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:background="#10ffffff"
+            android:gravity="center"
+            android:drawableBottom="@drawable/icon_cart"
+            android:textColor="#ffffff"
+            android:typeface="serif" />
+
+         <Button
+            android:id="@+id/ordergoods"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:background="#10ffffff"
+            android:gravity="center"
+            android:drawableBottom="@drawable/icon_order"
+            android:textColor="#ffffff"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

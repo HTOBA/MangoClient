@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1e202f"
+        android:padding="5dp"
+        android:text="购物车"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/yzh_book"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1e202f"
+        android:padding="5dp">
+        <TextView 
+            android:id="@+id/yzh_orderquantity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:text="共选择0件商品"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/yzh_pay"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="#1e202f"
+            android:text="结算"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</LinearLayout>

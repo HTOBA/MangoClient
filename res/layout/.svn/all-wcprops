@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/DangDangClient004/!svn/ver/274/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout
+END
+activity_shop_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/DangDangClient004/!svn/ver/229/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/activity_shop_list.xml
+END
+activity_pay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/DangDangClient004/!svn/ver/262/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/activity_pay.xml
+END
+collect_listview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/DangDangClient004/!svn/ver/140/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/collect_listview.xml
+END
+item_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/DangDangClient004/!svn/ver/273/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/item_header.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/DangDangClient004/!svn/ver/270/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/main.xml
+END
+ordercompleted.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/DangDangClient004/!svn/ver/223/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/ordercompleted.xml
+END
+address_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/DangDangClient004/!svn/ver/128/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/address_item.xml
+END
+activity_my_orderitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/DangDangClient004/!svn/ver/223/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/activity_my_orderitem.xml
+END
+activity_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/DangDangClient004/!svn/ver/246/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/activity_order.xml
+END
+imageview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/DangDangClient004/!svn/ver/207/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/imageview.xml
+END
+address_manage_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/DangDangClient004/!svn/ver/253/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/address_manage_detail.xml
+END
+my_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/DangDangClient004/!svn/ver/253/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/my_info.xml
+END
+dialog_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/DangDangClient004/!svn/ver/145/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/dialog_layout.xml
+END
+activity_undo_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/DangDangClient004/!svn/ver/245/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/activity_undo_order.xml
+END
+listview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/DangDangClient004/!svn/ver/268/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/listview.xml
+END
+activity_pay_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/DangDangClient004/!svn/ver/263/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/activity_pay_list.xml
+END
+activity_shop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/DangDangClient004/!svn/ver/248/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/activity_shop.xml
+END
+address_manage_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/DangDangClient004/!svn/ver/251/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/address_manage_main.xml
+END
+activity_my_orders.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/DangDangClient004/!svn/ver/245/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/activity_my_orders.xml
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/DangDangClient004/!svn/ver/220/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/activity_main.xml
+END
+login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/DangDangClient004/!svn/ver/257/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/login.xml
+END
+commentlayout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/DangDangClient004/!svn/ver/218/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/commentlayout.xml
+END
+logo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/DangDangClient004/!svn/ver/40/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/logo.xml
+END
+activity_my_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/DangDangClient004/!svn/ver/195/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/activity_my_order.xml
+END
+acticity_collect.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/DangDangClient004/!svn/ver/245/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/acticity_collect.xml
+END
+address_manage_add.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/DangDangClient004/!svn/ver/249/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/address_manage_add.xml
+END
+activity_register.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/DangDangClient004/!svn/ver/244/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/activity_register.xml
+END
+item01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/DangDangClient004/!svn/ver/268/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/item01.xml
+END
+item02.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/DangDangClient004/!svn/ver/274/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/item02.xml
+END
+item03.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/DangDangClient004/!svn/ver/268/%E6%95%B4%E5%90%88/%E6%BA%90%E7%A0%81/MangoClient/res/layout/item03.xml
+END

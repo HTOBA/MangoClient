@@ -1,0 +1,49 @@
+package com.example.adapter;
+
+import java.util.List;
+import java.util.Map;
+
+import com.example.mangoclient.R;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+public class OrderAdapter extends BaseAdapter {
+
+	private List<Map<String,Object>> datas = null;
+	private Context context = null;
+
+	public OrderAdapter(List<Map<String,Object>> datas,Context context) {
+		this.datas = datas;
+		this.context = context;
+	}
+
+	public int getCount() {
+		return datas.size();
+	}
+
+	public Object getItem(int position) {
+		return datas.get(position);
+	}
+
+	public long getItemId(int position) {
+		return position;
+	}
+
+	public View getView(int position, View convertView, ViewGroup parent) {
+		convertView = LayoutInflater.from(context).inflate(R.layout.activity_pay_list, null);
+		ImageView book_image = (ImageView) convertView.findViewById(R.id.img_cover);
+		book_image.setImageResource((Integer)datas.get(position).get("image"));
+		TextView book_name = (TextView) convertView.findViewById(R.id.txt_name);
+		book_name.setText((String)datas.get(position).get("name"));
+		TextView book_price = (TextView) convertView.findViewById(R.id.txt_price);
+		book_price.setText((String)datas.get(position).get("price"));
+		return convertView;
+	}
+
+}

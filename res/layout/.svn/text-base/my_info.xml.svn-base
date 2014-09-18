@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/myinfo_background" >
+
+    <ImageView
+        android:id="@+id/face_bg2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:src="@drawable/face_bg3" />
+    <ImageView
+        android:id="@+id/face_bg"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/face_bg" />
+
+    <com.example.helper.CircularImage
+        android:id="@+id/cover_user_photo"
+        android:layout_width="120.0dp"
+        android:layout_height="120.0dp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btn_change_photo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/face_bg"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="你好，"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/user_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XXX"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_user_address"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btn_order"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/face_bg"
+        android:background="@drawable/address_btn"
+        />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/btn_order"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/face_bg"
+        android:background="@drawable/logout_btn"
+         />
+
+    <Button
+        android:id="@+id/btn_order"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/order_btn"
+        />
+    
+    
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/btn_logout"
+        android:layout_below="@id/btn_logout"
+        android:text="注销"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/btn_user_address"
+        android:layout_below="@id/btn_user_address"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:text="地址管理" />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/btn_order"
+        android:layout_below="@id/btn_order"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="20dp"
+        android:text="订单管理"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

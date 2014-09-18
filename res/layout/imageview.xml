@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical" >
+    <ImageView 
+        android:layout_height="150dp"
+        android:id="@+id/image"
+        android:layout_width="match_parent"/>
+    <TextView
+       android:layout_height="wrap_content"
+        android:id="@+id/bookname"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/bookprice"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        />
+    <TextView
+       android:layout_height="wrap_content"
+        android:id="@+id/salevolume"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/yzh_orderlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/yzh_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="订单编号:000001" />
+
+    <ListView
+        android:id="@+id/yzh_item"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView android:id="@+id/yzh_orderprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="共选择1件商品 \t合计:49.80"/>
+    
+    <LinearLayout android:id="@+id/yzh_btnslayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <Button android:id="@+id/orderdelete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="删除订单"/>
+    </LinearLayout>
+
+</LinearLayout>

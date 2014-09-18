@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    </LinearLayout>	
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:background="@drawable/divider_horizontal_line">
+    	
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_chapter" >
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg" >
+        
+        <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_marginTop="30px"
+	        android:layout_marginBottom="30px"
+	        android:layout_marginLeft="30px"
+	        android:layout_marginRight="30px"
+	        android:background="@drawable/divider_horizontal_line" >
+    	</LinearLayout>
+
+    	<LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+			
+    	    <ScrollView 
+			android:id="@+id/scrollView"
+			android:layout_width="fill_parent"
+			android:layout_height="350px"
+			android:scrollbarStyle="outsideOverlay" 
+			android:background="@android:drawable/edit_text"
+			>
+	        <TextView
+	            android:id="@+id/toppickcatalog"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#000000"
+	            android:paddingLeft="30px"
+	            android:paddingRight="30px"
+	            />
+	        </ScrollView> 
+	        
+    
+    	</LinearLayout>
+    
+    </LinearLayout>
+
+</LinearLayout>

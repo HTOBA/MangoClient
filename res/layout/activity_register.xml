@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbgd"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/regname"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            android:bufferType="spannable"
+            android:ems="10"
+            android:hint="| 用户名"
+            android:background="#10ffffff"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            android:drawableLeft="@drawable/icon_profile">
+        </EditText>
+
+        <EditText
+            android:id="@+id/regpassword"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/regname"
+            android:layout_below="@+id/regname"
+            android:background="#10ffffff"
+            android:bufferType="spannable"
+            android:ems="10"
+            android:hint="| 密码"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt" 
+            android:drawableLeft="@drawable/icon_pwd">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/regemail"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/regpassword"
+            android:layout_below="@+id/regpassword"
+            android:background="#10ffffff"
+            android:bufferType="spannable"
+            android:ems="10"
+            android:hint="| 邮箱"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt" 
+            android:drawableLeft="@drawable/icon_mail"/>
+
+        <EditText
+            android:id="@+id/regrelname"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/regpassword"
+            android:layout_below="@+id/regpassword"
+            android:layout_marginTop="41dp"
+            android:background="#10ffffff"
+            android:bufferType="spannable"
+            android:ems="10"
+            android:hint="| 真实姓名"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt" 
+            android:drawableLeft="@drawable/icon_name"/>
+
+        <EditText
+            android:id="@+id/regmobile"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/regrelname"
+            android:layout_below="@+id/regrelname"
+            android:background="#10ffffff"
+            android:bufferType="spannable"
+            android:ems="10"
+            android:hint="| 手机"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt" 
+            android:drawableLeft="@drawable/icon_phone"/>
+
+        <Button
+            android:id="@+id/sure"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/regmobile"
+            android:layout_below="@+id/regmobile"
+            android:layout_marginTop="25dp"
+            android:background="#00ffffff"
+            android:text="确 定"
+            android:textColor="#C1C1C1"
+            android:textSize="10pt" />
+
+        <Button
+            android:id="@+id/cancle"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/regmobile"
+            android:layout_below="@+id/regmobile"
+            android:layout_marginTop="75dp"
+            android:background="#00ffffff"
+            android:text="取 消"
+            android:textColor="#C1C1C1"
+            android:textSize="10pt" />
+
+    </RelativeLayout>
+
+</LinearLayout>
